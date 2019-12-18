@@ -14,14 +14,7 @@ export default class Saudacao extends Component {  // componente controlado
      }
 
     setTipo(e) {
-        /*let i = 1
-        setInterval(() => {
-            this.setState({ tipo: ++i })  
-        }, 2000);
-
-        */
-        
-         this.setState({ tipo: e.target.value})      // o estado muda, o componente tambem               // console.log(e.target.value)
+         this.setState({ tipo: e.target.value})     
     }
 
     setNome(e) {
